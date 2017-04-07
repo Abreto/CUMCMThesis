@@ -1,20 +1,12 @@
 % !Mode:: "TeX:UTF-8"
 %!TEX program  = xelatex
 
-\documentclass[bwprint]{cumcmthesis}
+\documentclass[withoutpreface,bwprint]{cumcmthesis}
 %\documentclass[withoutpreface,bwprint]{cumcmthesis} %去掉封面与编号页
 
 \title{创意平板折叠桌}
 \tihao{A}
 \baominghao{4321}
-\schoolname{XX大学}
-\membera{小米}
-\memberb{向左}
-\memberc{哈哈}
-\supervisor{老师}
-\yearinput{2015}
-\monthinput{08}
-\dayinput{22}
 \begin{document}
  \maketitle
  \begin{abstract}
@@ -98,10 +90,9 @@
 \end{figure}
 
 %参考文献
-\begin{thebibliography}{9}%宽度9
- \bibitem{bib:one} ....
- \bibitem{bib:two} ....
-\end{thebibliography}
+\bibliographystyle{plain}
+\nocite{*}
+\bibliography{reference}
 
 \newpage
 %附录
