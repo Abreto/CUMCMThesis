@@ -20,10 +20,6 @@ cumcmthesis 是为全国大学生数学建模竞赛编写的LaTeX模板, 旨在�
 
     $ make clean
 
-### 截图
-
-![](https://github.com/latexstudio/CUMCMThesis/blob/master/screenshot.png)
-
 ## 更新记录
 
 2016年8月11日更新:
