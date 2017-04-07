@@ -299,6 +299,7 @@ Just choose `xelatex', no `pdflatex' or `latex' and so on.}
 \vskip1ex
 \else
 \setcounter{page}{1}
+{论文评阅编号: \mcm@tokens@tihao\mcm@tokens@baominghao\par}
 {\centering \zihao{3}\heiti \@title\par}
 \vskip1ex
 \fi
