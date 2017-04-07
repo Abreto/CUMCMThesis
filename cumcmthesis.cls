@@ -353,7 +353,7 @@ Just choose `xelatex', no `pdflatex' or `latex' and so on.}
 		\section*{\abstractname}%
 	\else
 	 \begin{center}%
-	{\zihao{4}\bfseries \abstractname\vspace{-.5em}\vspace{\z@}}%
+	{\zihao{4}\heiti \abstractname\vspace{-.5em}\vspace{\z@}}%
 	 \end{center}%
  	 \quotation
 	\fi}
