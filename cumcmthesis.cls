@@ -299,7 +299,7 @@ Just choose `xelatex', no `pdflatex' or `latex' and so on.}
 \vskip1ex
 \else
 \setcounter{page}{1}
-{\centering \zihao{3}\bfseries \@title\par}
+{\centering \zihao{3}\heiti \@title\par}
 \vskip1ex
 \fi
 }
