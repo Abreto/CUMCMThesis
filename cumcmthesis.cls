@@ -325,15 +325,15 @@ Just choose `xelatex', no `pdflatex' or `latex' and so on.}
 \renewcommand\section{\@startsection{section}{1}{\z@}%
  	{-3.5ex \@plus -1ex \@minus -.2ex}%
 	{2.3ex \@plus.2ex}%
-	{\centering\normalfont\Large\bfseries}}
+	{\centering\normalfont\zihao{4}\heiti}}
 \renewcommand\subsection{\@startsection{subsection}{2}{\z@}%
 	{-3.25ex\@plus -1ex \@minus -.2ex}%
 	{1.5ex \@plus .2ex}%
-	{\normalfont\large\bfseries}}
+	{\normalfont\zihao{-4}\heiti}}
 \renewcommand\subsubsection{\@startsection{subsubsection}{3}{\z@}%
 	{-3.25ex\@plus -1ex \@minus -.2ex}%
 	{1.5ex \@plus .2ex}%
-	{\normalfont\normalsize\bfseries}}
+	{\normalfont\zihao{-4}\heiti}}
 \renewcommand\paragraph{\@startsection{paragraph}{4}{\z@}%
 	{3.25ex \@plus1ex \@minus.2ex}%
 	{-1em}%
