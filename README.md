@@ -10,6 +10,8 @@ cumcmthesis 是为全国大学生数学建模竞赛编写的LaTeX模板, 旨在�
 
 视频教程试看的话，请点击：[试看地址](http://v.xue.taobao.com/learn.htm?spm=2013.1.0.0.kx3j3X&courseId=26740).
 
+参考文献在 `reference.bib` 里, [文档](http://ftp.kaist.ac.kr/tex-archive/biblio/bibtex/base/btxdoc.pdf).
+
 ### 编译命令
 
     $ make
