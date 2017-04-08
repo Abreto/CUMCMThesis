@@ -180,6 +180,17 @@ Just choose `xelatex', no `pdflatex' or `latex' and so on.}
 \if@mcm@bwprint
 \AtBeginDocument{\hypersetup{hidelinks}}
 \else\relax\fi
+% 源代码环境
+\lstset{
+	breaklines=true,
+	tabsize=2,
+	basicstyle=\sf\footnotesize,
+	numberstyle=\sf\footnotesize,
+	commentstyle=\sf\footnotesize,
+	numbers=left,
+	frame=leftline,
+	extendedchars=false
+}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 %% Document Markup
