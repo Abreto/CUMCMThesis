@@ -1,13 +1,15 @@
 # Makefile
 JOBNAME=thesis
+TPLFIL=cumcmthesis.cls
+TEXSRC=$(JOBNAME).tex
 
 all: $(JOBNAME).pdf
 
-$(JOBNAME).pdf: example.tex cumcmthesis.cls
-	xelatex -jobname=$(JOBNAME) example.tex
+$(JOBNAME).pdf: $(TPLFIL) $(TEXSRC)
+	xelatex -jobname=$(JOBNAME) $(TEXSRC)
 	bibtex $(JOBNAME)
-	xelatex -jobname=$(JOBNAME) example.tex
-	xelatex -jobname=$(JOBNAME) example.tex
+	xelatex -jobname=$(JOBNAME) $(TEXSRC)
+	xelatex -jobname=$(JOBNAME) $(TEXSRC)
 
 clean:
 	rm $(JOBNAME).aux $(JOBNAME).log $(JOBNAME).out $(JOBNAME).bbl $(JOBNAME).blg $(JOBNAME).pdf
