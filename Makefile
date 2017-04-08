@@ -12,4 +12,5 @@ $(JOBNAME).pdf: $(TPLFIL) $(TEXSRC)
 	xelatex -jobname=$(JOBNAME) $(TEXSRC)
 
 clean:
-	rm $(JOBNAME).aux $(JOBNAME).log $(JOBNAME).out $(JOBNAME).bbl $(JOBNAME).blg $(JOBNAME).pdf
+	rm $(JOBNAME).aux $(JOBNAME).log $(JOBNAME).out $(JOBNAME).bbl $(JOBNAME).blg
+
