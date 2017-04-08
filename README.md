@@ -16,7 +16,7 @@ cumcmthesis 是为全国大学生数学建模竞赛编写的LaTeX模板, 旨在�
 
     $ make
 
-清理
+清理编译产生的临时文件和日志
 
     $ make clean
 
