@@ -1,5 +1,5 @@
 # Makefile
-JOBNAME=thesis
+JOBNAME=example
 TPLFIL=cumcmthesis.cls
 TEXSRC=$(JOBNAME).tex
 
