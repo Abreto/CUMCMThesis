@@ -192,6 +192,10 @@ Just choose `xelatex', no `pdflatex' or `latex' and so on.}
 	extendedchars=false
 }
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% 上标引用
+\newcommand\citeup[1]{
+	$^{\text{\cite{#1}}}$
+}
 
 %% Document Markup
 

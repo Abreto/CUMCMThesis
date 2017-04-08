@@ -2,10 +2,11 @@
 JOBNAME=example
 TPLFIL=cumcmthesis.cls
 TEXSRC=$(JOBNAME).tex
+REFBIB=reference.bib
 
 all: $(JOBNAME).pdf
 
-$(JOBNAME).pdf: $(TPLFIL) $(TEXSRC)
+$(JOBNAME).pdf: $(TPLFIL) $(TEXSRC) $(REFBIB)
 	xelatex -jobname=$(JOBNAME) $(TEXSRC)
 	bibtex $(JOBNAME)
 	xelatex -jobname=$(JOBNAME) $(TEXSRC)
